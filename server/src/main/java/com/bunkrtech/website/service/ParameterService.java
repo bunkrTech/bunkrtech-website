@@ -21,7 +21,7 @@ public interface ParameterService {
      * @return Map of parameters
      * @throws ParameterException
      */
-    public Map<String, String> getAllParameters() throws ParameterException;
+    Map<String, String> getAllParameters() throws ParameterException;
 
     /**
      *
@@ -30,7 +30,7 @@ public interface ParameterService {
      * @return Parameter value as String
      * @throws ParameterException
      */
-    public String getParameter(String paramName, String defaultValue) throws ParameterException;
+    String getParameter(String paramName, String defaultValue) throws ParameterException;
 
     /**
      *
@@ -39,7 +39,7 @@ public interface ParameterService {
      * @return Parameter value as Integer
      * @throws ParameterException
      */
-    public Integer getParameterAsInt(String paramName, Integer defaultValue) throws ParameterException;
+    Integer getParameterAsInt(String paramName, Integer defaultValue) throws ParameterException;
 
     /**
      *
@@ -48,7 +48,7 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public Long getParameterAsLong(String paramName, Long defaultValue) throws ParameterException;
+    Long getParameterAsLong(String paramName, Long defaultValue) throws ParameterException;
 
     /**
      *
@@ -57,7 +57,7 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public Double getParameterAsDouble(String paramName, Double defaultValue) throws ParameterException;
+    Double getParameterAsDouble(String paramName, Double defaultValue) throws ParameterException;
 
     /**
      *
@@ -66,7 +66,7 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public LocalDate getParameterAsDate(String paramName, LocalDate defaultValue) throws ParameterException;
+    LocalDate getParameterAsDate(String paramName, LocalDate defaultValue) throws ParameterException;
 
     /**
      *
@@ -75,7 +75,7 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public LocalDateTime getParameterAsDateTime(String paramName, LocalDateTime defaultValue) throws ParameterException;
+    LocalDateTime getParameterAsDateTime(String paramName, LocalDateTime defaultValue) throws ParameterException;
 
     /**
      *
@@ -84,7 +84,7 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public Boolean getParameterAsBool(String paramName, Boolean defaultValue) throws ParameterException;
+    Boolean getParameterAsBool(String paramName, Boolean defaultValue) throws ParameterException;
 
     /**
      *
@@ -93,5 +93,5 @@ public interface ParameterService {
      * @return
      * @throws ParameterException
      */
-    public BigDecimal getParameterAsBigDecimal(String paramName, BigDecimal defaultValue) throws ParameterException;
+    BigDecimal getParameterAsBigDecimal(String paramName, BigDecimal defaultValue) throws ParameterException;
 }
